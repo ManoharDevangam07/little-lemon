@@ -10,22 +10,22 @@ const Navbar = () => {
         <img src={Logo} alt="logo-img" />
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="menu.html">Menu</a>
+            <a href="/menu">Menu</a>
           </li>
           <li>
-            <a href="book.html">Reservations</a>
+            <a href="/reservations">Reservations</a>
           </li>
           <li>
-            <a href="book.html">order online</a>
+            <a href="/order-online">order online</a>
           </li>
           <li>
-            <a href="book.html">Login</a>
+            <a href="/login">Login</a>
           </li>
         </ul>
       </nav>

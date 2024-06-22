@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/icons_assets/Asset 18@4x.png";
+import Logo from "../assets/icons_assets/Asset 20@4x.png";
 import '../components/css/footer.css';
 const Footer = () => {
   return (
@@ -10,23 +10,23 @@ const Footer = () => {
       <section>
         <h4>Doormat <br /> Navigation</h4>
       <ul>
-          <li>
-            <a href="index.html">Home</a>
+      <li>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="menu.html">Menu</a>
+            <a href="/menu">Menu</a>
           </li>
           <li>
-            <a href="book.html">Reservations</a>
+            <a href="/reservations">Reservations</a>
           </li>
           <li>
-            <a href="book.html">order online</a>
+            <a href="/order-online">order online</a>
           </li>
           <li>
-            <a href="book.html">Login</a>
+            <a href="/login">Login</a>
           </li>
         </ul>
       </section>
