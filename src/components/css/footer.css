@@ -1,0 +1,33 @@
+section ul {
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+ul a {
+  text-decoration: none;
+  color: #4a5e57;
+}
+
+ul a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+li {
+  margin-bottom: 5px;
+}
+footer {
+
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4ce14;
+  padding: 10px 40px;
+}
+
+section img {
+  width: 150px;
+}
