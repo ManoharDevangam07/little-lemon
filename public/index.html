@@ -34,6 +34,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script src="https://raw.githubusercontent.com/courseraap/capstone/main/api.js"></script>
+    <script>
+      // Example usage
+      let date = new Date();
+      let apiResult = fetchAPI(date);
+      console.log(apiResult);
+  
+      let formData = { /* your form data */ };
+      let submissionResult = submitAPI(formData);
+      console.log(submissionResult);
+    </script>
     <title>React App</title>
   </head>
   <body>
@@ -49,5 +60,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://raw.githubusercontent.com/courseraap/capstone/main/api.js"></script>
   </body>
 </html>

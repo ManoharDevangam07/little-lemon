@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Reservations from "./pages/Reservations";
 import OrderOnline from "./pages/OrderOnline";
 import Login from "./pages/Login";
+import BookingPage from "./pages/BookingPage";
 function App() {
   return (
     <Router>
@@ -20,6 +21,8 @@ function App() {
         <Route path="/reservations" element={<Reservations />}></Route>
         <Route path="/order-online" element={<OrderOnline />}></Route>
         <Route path="/login" element={<Login />}></Route>
+        <Route path="/reserve" element={<BookingPage />}></Route>
+        
 
       </Routes>
       <Footer />

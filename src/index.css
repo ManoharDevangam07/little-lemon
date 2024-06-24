@@ -21,3 +21,13 @@ cursor: pointer;
 border: none  ;
 font-weight: bold;
 }
+
+.primary-btn:active{
+ color: white;
+}
+
+
+.primary-btn:hover{
+  color: white;
+  background-color: #ccab07;
+ }

@@ -1,6 +1,7 @@
 import React from "react";
 import "../components/css/main.css";
 import Banner from "../assets/icons_assets/restauranfood.jpg";
+import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <main>
@@ -11,7 +12,7 @@ const Main = () => {
           We are family owned Mediterranean restaurant, focused on traditional
           recipes served with a modern twist.
         </h4>
-        <button className="primary-btn">Reserve a Table</button>
+        <Link to="/reserve"> <button className="primary-btn">Reserve a Table</button></Link>
       </article>
       <img src={Banner} alt="" />
     </main>
